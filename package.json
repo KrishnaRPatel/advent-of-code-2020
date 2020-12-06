@@ -1,0 +1,26 @@
+{
+  "name": "advent-of-code-2020",
+  "description": "Running list of solutions (so far in Node) by Krishna Patel",
+  "version": "0.4.0",
+  "keywords": [
+    "adventofcode",
+    "advent-of-code"
+  ],
+  "maintainers": [
+    {
+      "name": "Krishna Patel",
+      "email": "krishna.ricky.patel@gmail.com",
+      "web": "https://krishnapa.tel/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:KrishnaRPatel/advent-of-code-2020.git"
+    }
+  ],
+  "engines": {
+    "node": "^13.0.0",
+    "npm": "^7.0.14"
+  }
+}
