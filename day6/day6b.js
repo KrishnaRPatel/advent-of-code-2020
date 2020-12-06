@@ -8,11 +8,12 @@ the number of times a property has been seen.
 
 const fs = require('fs');
 const readline = require('readline');
+const path = require('path');
 
 const groupQuestionsHandler = makeGroupQuestionsHandler();
 
 const rl = readline.createInterface({
-  input: fs.createReadStream('day6-input.txt'),
+  input: fs.createReadStream(path.join(__dirname, 'day6-input.txt')),
   crlfDelay: Infinity,
 });
 

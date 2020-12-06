@@ -2,9 +2,10 @@
 
 const fs = require('fs');
 const readline = require('readline');
+const path = require('path');
 
 const rl = readline.createInterface({
-  input: fs.createReadStream('day5-input.txt'),
+  input: fs.createReadStream(path.join(__dirname, 'day5-input.txt')),
   crlfDelay: Infinity,
 });
 
