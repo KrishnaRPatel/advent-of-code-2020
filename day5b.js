@@ -21,7 +21,6 @@ const rl = readline.createInterface({
   crlfDelay: Infinity,
 });
 
-//Three right, one down.
 rl.on('line', (line) => {
   boardingPassHandler(line);
 }).on('close', () => {
